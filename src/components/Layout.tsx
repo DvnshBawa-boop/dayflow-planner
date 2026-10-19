@@ -99,9 +99,9 @@ export function Layout() {
                   exit={{ opacity: 0, scale: 0.8, y: 20 }}
                   transition={{ delay: 0.15 }}
                   onClick={() => {
-                    setFabOpen(false);
-                    window.location.href = '/add-category';
-                  }}
+                                      setFabOpen(false);
+                                      window.location.href = '/categories';
+                                    }}
                   className="flex items-center gap-3 px-4 py-3 bg-card rounded-xl shadow-lg border border-border text-left w-full hover:bg-accent transition-colors"
                 >
                   <div className="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center">
