@@ -126,7 +126,7 @@ export default function Index() {
             <div className="flex justify-between align-items-center">
               <div className="flex items-center gap-3">
                 <Sunrise className="w-3 h-3 text-indigo-600" aria-hidden="true" />
-                                <span className="font-medium text-sm">Morning (6-10 AM)</span>
+                                                <span className="font-medium text-sm text-slate-800">Morning (6-10 AM)</span>
               </div>
               <Button
                 variant="ghost"
@@ -152,7 +152,7 @@ export default function Index() {
             <div className="flex justify-between align-items-center">
               <div className="flex items-center gap-3">
                 <Clock className="w-3 h-3 text-emerald-600" aria-hidden="true" />
-                                <span className="font-medium text-sm">Midday (10 AM-2 PM)</span>
+                                                <span className="font-medium text-sm text-slate-800">Midday (10 AM-2 PM)</span>
               </div>
               <Button
                 variant="ghost"
@@ -178,7 +178,7 @@ export default function Index() {
             <div className="flex justify-between align-items-center">
               <div className="flex items-center gap-3">
                 <Moon className="w-3 h-3 text-amber-600" aria-hidden="true" />
-                                <span className="font-medium text-sm">Afternoon (2-6 PM)</span>
+                                                <span className="font-medium text-sm text-slate-800">Afternoon (2-6 PM)</span>
               </div>
               <Button
                 variant="ghost"
