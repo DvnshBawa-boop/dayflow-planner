@@ -4,7 +4,7 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { useNavigate } from 'react-router-dom';
 import { Card, Input, Button, Label, Description } from '@/components/ui';
 import { useStorage } from '@/utils/storage';
-import { Plus, Check, Calendar, Clock, Sunrise, MoonStars, X } from 'lucide-react';
+import { Plus, Check, Calendar, Clock, Sunrise, Moon, X } from 'lucide-react';
 import { EmptyTasksIllustration } from '@/components/Illustrations';
 import { cn } from '@/lib/utils';
 
@@ -177,7 +177,7 @@ export default function Index() {
           >
             <div className="flex justify-between align-items-center">
               <div className="flex items-center gap-3">
-                <MoonStars className="w-3 h-3 text-amber-500" aria-hidden="true" />
+                <Moon className="w-3 h-3 text-amber-500" aria-hidden="true" />
                 <span className="font-medium text-sm">Afternoon (2-6 PM)</span>
               </div>
               <Button
