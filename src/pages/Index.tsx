@@ -125,8 +125,8 @@ export default function Index() {
           >
             <div className="flex justify-between align-items-center">
               <div className="flex items-center gap-3">
-                <Sunrise className="w-3 h-3 text-indigo-500" aria-hidden="true" />
-                <span className="font-medium text-sm">Morning (6-10 AM)</span>
+                <Sunrise className="w-3 h-3 text-indigo-600" aria-hidden="true" />
+                                <span className="font-medium text-sm">Morning (6-10 AM)</span>
               </div>
               <Button
                 variant="ghost"
@@ -151,8 +151,8 @@ export default function Index() {
           >
             <div className="flex justify-between align-items-center">
               <div className="flex items-center gap-3">
-                <Clock className="w-3 h-3 text-emerald-500" aria-hidden="true" />
-                <span className="font-medium text-sm">Midday (10 AM-2 PM)</span>
+                <Clock className="w-3 h-3 text-emerald-600" aria-hidden="true" />
+                                <span className="font-medium text-sm">Midday (10 AM-2 PM)</span>
               </div>
               <Button
                 variant="ghost"
@@ -177,8 +177,8 @@ export default function Index() {
           >
             <div className="flex justify-between align-items-center">
               <div className="flex items-center gap-3">
-                <Moon className="w-3 h-3 text-amber-500" aria-hidden="true" />
-                <span className="font-medium text-sm">Afternoon (2-6 PM)</span>
+                <Moon className="w-3 h-3 text-amber-600" aria-hidden="true" />
+                                <span className="font-medium text-sm">Afternoon (2-6 PM)</span>
               </div>
               <Button
                 variant="ghost"
@@ -283,7 +283,7 @@ export default function Index() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}
-          className="fixed bottom-20 right-4 z-40"
+          className="fixed bottom-24 right-4 z-40"
         >
           <div className="rounded-xl p-6 bg-card/95 backdrop-blur-sm border border-border shadow-lg">
             <h3 className="font-medium mb-3">New Task</h3>
@@ -341,7 +341,7 @@ export default function Index() {
       <motion.button
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        className="fixed bottom-20 right-4 z-40 w-14 h-14 rounded-2xl flex items-center justify-center shadow-xl transition-all duration-300 bg-primary text-primary-foreground"
+        className="fixed bottom-4 right-4 z-40 w-14 h-14 rounded-2xl flex items-center justify-center shadow-xl transition-all duration-300 bg-primary text-primary-foreground"
         onClick={() => setShowAddTask(!showAddTask)}
       >
         <Plus className="w-6 h-6" aria-hidden="true" />
