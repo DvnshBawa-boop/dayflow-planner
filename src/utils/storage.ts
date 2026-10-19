@@ -164,20 +164,18 @@ export function getCompletedTodayTasks(date: string): Task[] {
   return data.tasks.filter(t => t.date === targetDate && t.status === 'completed');
 }
 
-// Custom hook to provide access to storage functions
-export function useStorage() {
-  return {
-    loadAppData,
-    saveAppData,
-    saveTask,
-    deleteTask,
-    toggleTaskStatus,
-    addHabit,
-    toggleHabitCompletion,
-    saveCategory,
-    deleteCategory,
-    addFocusSession,
-    getTodayTasks,
-    getCompletedTodayTasks,
-  };
-}
+// Storage functions object for direct use
+export const useStorage = {
+  loadAppData,
+  saveAppData,
+  saveTask,
+  deleteTask,
+  toggleTaskStatus,
+  addHabit,
+  toggleHabitCompletion,
+  saveCategory,
+  deleteCategory,
+  addFocusSession,
+  getTodayTasks,
+  getCompletedTodayTasks,
+};
