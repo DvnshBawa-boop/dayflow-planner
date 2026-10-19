@@ -20,10 +20,10 @@ React, TypeScript, Vite, Tailwind CSS
 
 ## Run locally
 ```bash
-git clone https://github.com/DvnshBawa-boop/floating-dolphin-trot.git
-cd floating-dolphin-trot
-npm install
-npm run dev
+git clone https://github.com/DvnshBawa-boop/dayflow-planner.git
+cd dayflow-planner
+pnpm install
+pnpm dev
 ```
 
 ## How it was built
