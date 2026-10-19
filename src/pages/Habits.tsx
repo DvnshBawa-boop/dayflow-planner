@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTheme } from '@/contexts/ThemeContext';
-import { useNavigate } from '@tanstack/react-router';
+import { useNavigate } from 'react-router-dom';
 import { Card, Input, Button, Label, Description } from '@/components/ui';
 import { useStorage } from '@/utils/storage';
 import { Plus, Target, Flame, Trophy, Check, X, Calendar, Star, Sparkles } from 'lucide-react';

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTheme } from '@/contexts/ThemeContext';
-import { useNavigate } from '@tanstack/react-router';
+import { useNavigate } from 'react-router-dom';
 import { Card, Input, Button, Label, Description } from '@/components/ui';
 import { useStorage } from '@/utils/storage';
 import { Plus, Tag, Trash2, Check, X, Calendar, Sun, Moon, Palette, BookOpen, DollarSign, Users } from 'lucide-react';

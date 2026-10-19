@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useTheme } from '@/contexts/ThemeContext';
-import { useNavigate } from '@tanstack/react-router';
+import { useNavigate } from 'react-router-dom';
 import { Card, Input, Button, Label, Description, Switch } from '@/components/ui';
 import { useStorage } from '@/utils/storage';
 import { Plus, Download, Upload, Trash2, Clock, Bell, Palette, Database, Shield, Info, Moon, Sun, RotateCcw } from 'lucide-react';
