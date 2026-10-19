@@ -163,3 +163,21 @@ export function getCompletedTodayTasks(date: string): Task[] {
   const targetDate = date.split('T')[0] || new Date().toISOString().split('T')[0];
   return data.tasks.filter(t => t.date === targetDate && t.status === 'completed');
 }
+
+// Custom hook to provide access to storage functions
+export function useStorage() {
+  return {
+    loadAppData,
+    saveAppData,
+    saveTask,
+    deleteTask,
+    toggleTaskStatus,
+    addHabit,
+    toggleHabitCompletion,
+    saveCategory,
+    deleteCategory,
+    addFocusSession,
+    getTodayTasks,
+    getCompletedTodayTasks,
+  };
+}
